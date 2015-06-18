@@ -4,7 +4,7 @@ Composer based Vtiger Web Services Client.
 
 Build Status
 ---------------------
-Travis-CI: [![Build Status](https://travis-ci.org/vdespa/Vtiger-Web-Services-PHP-Client-Library.svg?branch=master)](https://travis-ci.org/vdespa/Vtiger-Web-Services-PHP-Client-Library)
+Travis-CI: [![Build Status](https://travis-ci.org/jcoaks/Vtiger-Web-Services-PHP-Client-Library.svg?branch=master)](https://travis-ci.org/jcoaks/Vtiger-Web-Services-PHP-Client-Library)
 
 # Installation
 
@@ -14,7 +14,7 @@ Specify vtwsphpclib as a dependency in your **composer.json** file:
 
 	{
    		"require": {
-      		"vdespa/vtiger": "0.1"
+      		"jcoaks/vtiger": "0.1"
    		}
 	}
 
@@ -23,7 +23,7 @@ In case you are new to Composer, you need to include the file `/vendor/autoload.
 # Usage
 
 ## Creating the WSClient object
-	use Vdespa\Vtiger\WSClient;
+	use Jcoaks\Vtiger\WSClient;
 
 	$url = 'http://example.com/';
 
