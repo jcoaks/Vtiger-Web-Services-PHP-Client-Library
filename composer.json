@@ -1,9 +1,9 @@
 {
-    "name": "vdespa/vtiger",
+    "name": "jcoaks/vtiger",
     "type": "library",
     "description": "Vtiger Web Services PHP Client Library",
     "keywords": ["vtiger", "webservices", "vtwsclib"],
-    "homepage": "https://github.com/vdespa/Vtiger-Web-Services-PHP-Client-Library",
+    "homepage": "https://github.com/jcoaks/Vtiger-Web-Services-PHP-Client-Library",
     "license": "The MIT License (MIT)",
     "require": {
         "php": ">=5.4",
@@ -11,8 +11,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Vdespa\\Vtiger\\": "src/",
-            "Vdespa\\Vtiger\\Tests\\": "Tests/"
+            "Jcoaks\\Vtiger\\": "src/",
+            "Jcoaks\\Vtiger\\Tests\\": "Tests/"
         }
     }
 
